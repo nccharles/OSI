@@ -186,6 +186,11 @@ div#preloader {
   padding-bottom: 90px;
 }
 
+.navbar-brand>img {
+  height: 50px;
+  padding-top: 10px;
+  width: auto
+}
 .section-headline h2 {
   display: inline-block;
   font-size: 40px;
@@ -354,7 +359,6 @@ div#preloader {
   width: 100%;
   z-index: 1000;
 }
-
 .stick .navbar-header a.navbar-brand {
   display: inline-block;
   height: 90px;
