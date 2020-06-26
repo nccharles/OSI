@@ -1,40 +1,3 @@
-/*
-  Theme Name: eBusiness
-  Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*-----------------------------------------------------------------------------------
-   CSS INDEX
-  ===================
-
-  1. Theme Default CSS (body, link color, section etc)
-  2. Header Area
-   2.1 Stick menu Area
-  3. About Area
-  4.Services Area
-  5.Skill Area
-  6.Faq Area
-  7.Wellcome Area
-  8.product Area
-  9.Review Area
-  10.Portfolio Area
-  11. Pricing Table
-  12. Testimonials area
-  13. Review Area
-  14. Quote area
-  15.Footer Area
-  16.Home Page-2 Area
-  17.Home Page 3  CSS
-  18.Blog CSS
-  17.Blog Details CSS
-
------------------------------------------------------------------------------------*/
-
-/*----------------------------------------*/
-/*  1.  Theme default CSS
-/*----------------------------------------*/
 
 html, body {
   height: 100%;
@@ -226,6 +189,7 @@ div#preloader {
 .section-headline h2 {
   display: inline-block;
   font-size: 40px;
+  color: #2961AD;
   font-weight: 600;
   margin-bottom: 70px;
   position: relative;
@@ -233,7 +197,7 @@ div#preloader {
 }
 
 .section-headline h2::after {
-  border: 1px solid #333;
+  border: 1px solid #2961AD;
   bottom: -20px;
   content: "";
   left: 0;
@@ -1638,10 +1602,12 @@ div#preloader {
 
 .contact-area {
   height: auto;
+  background: url("../img/background/contact-bg.png") no-repeat fixed center top / cover;
   width: 100%;
 }
 .contact-bg{
   background-color: #d2d2d2;
+  width: 100%;
   padding: 10px
 }
 .contact-content {
