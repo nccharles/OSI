@@ -541,9 +541,9 @@ div#preloader {
 }
 .single-services>h5 {
   float: left;
-  color: #444;
+  color: #2961AD;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .single-services>ul>li{
@@ -1640,7 +1640,10 @@ div#preloader {
   height: auto;
   width: 100%;
 }
-
+.contact-bg{
+  background-color: #d2d2d2;
+  padding: 10px
+}
 .contact-content {
   padding: 100px;
   background: #000 none repeat scroll 0 0;
@@ -1652,9 +1655,9 @@ div#preloader {
 
 .contact-form input[type="text"], .contact-form input[type="email"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
+  border: 1px solid #2961AD;
   border-radius: 0;
-  color: #444;
+  color: #2961AD;
   height: 40px;
   margin-bottom: 16px;
   padding-left: 20px;
@@ -1663,9 +1666,9 @@ div#preloader {
 
 .contact-form textarea  {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
+  border: 1px solid #2961AD;
   border-radius: 0;
-  color: #444;
+  color: #2961AD;
   height: 140px;
   padding: 20px;
   width: 100%;
